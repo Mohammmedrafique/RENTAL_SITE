@@ -36,49 +36,56 @@ const products = [
     price: 39.99,
     image:
       "https://assets2.andaazfashion.com/media/catalog/product/cache/1/image/800x1200/a12781a7f2ccb3d663f7fd01e1bd2e4e/l/i/light-pink-net-embroidered-lehenga-llcv113211-1_1.jpg",
-  },{
+  },
+  {
     id: 3,
     name: "Product 3",
     description: "Description of Product 3",
     price: 39.99,
     image:
       "https://assets2.andaazfashion.com/media/catalog/product/cache/1/image/800x1200/a12781a7f2ccb3d663f7fd01e1bd2e4e/l/i/light-pink-net-embroidered-lehenga-llcv113211-1_1.jpg",
-  },{
+  },
+  {
     id: 3,
     name: "Product 3",
     description: "Description of Product 3",
     price: 39.99,
     image:
       "https://assets2.andaazfashion.com/media/catalog/product/cache/1/image/800x1200/a12781a7f2ccb3d663f7fd01e1bd2e4e/l/i/light-pink-net-embroidered-lehenga-llcv113211-1_1.jpg",
-  },{
+  },
+  {
     id: 3,
     name: "Product 3",
     description: "Description of Product 3",
     price: 39.99,
     image:
       "https://assets2.andaazfashion.com/media/catalog/product/cache/1/image/800x1200/a12781a7f2ccb3d663f7fd01e1bd2e4e/l/i/light-pink-net-embroidered-lehenga-llcv113211-1_1.jpg",
-  },{
+  },
+  {
     id: 3,
     name: "Product 3",
     description: "Description of Product 3",
     price: 39.99,
     image:
       "https://assets2.andaazfashion.com/media/catalog/product/cache/1/image/800x1200/a12781a7f2ccb3d663f7fd01e1bd2e4e/l/i/light-pink-net-embroidered-lehenga-llcv113211-1_1.jpg",
-  },{
+  },
+  {
     id: 3,
     name: "Product 3",
     description: "Description of Product 3",
     price: 39.99,
     image:
       "https://assets2.andaazfashion.com/media/catalog/product/cache/1/image/800x1200/a12781a7f2ccb3d663f7fd01e1bd2e4e/l/i/light-pink-net-embroidered-lehenga-llcv113211-1_1.jpg",
-  },{
+  },
+  {
     id: 3,
     name: "Product 3",
     description: "Description of Product 3",
     price: 39.99,
     image:
       "https://assets2.andaazfashion.com/media/catalog/product/cache/1/image/800x1200/a12781a7f2ccb3d663f7fd01e1bd2e4e/l/i/light-pink-net-embroidered-lehenga-llcv113211-1_1.jpg",
-  },{
+  },
+  {
     id: 3,
     name: "Product 3",
     description: "Description of Product 3",
@@ -91,8 +98,13 @@ const products = [
 function App() {
   return (
     <>
-      <Navbar />
-      <HeroSection />
+      <div>
+        <Navbar />
+      </div>
+      <div>
+        {" "}
+        <HeroSection />
+      </div>
       <div className="container mx-auto px-2 sm:px-6 lg:px-8">
         <h1 className="text-2xl font-semibold text-center my-8">
           Checkout Our Product

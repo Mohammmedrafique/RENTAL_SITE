@@ -16,23 +16,23 @@ const HeroSection = () => {
   };
 
   return (
-    <div>
-      <Slider {...settings}>
-        <div>
+    <div className="max-w-screen-lg mx-auto">
+      <Slider {...settings} className="overflow-hidden">
+        <div className="outline-none">
           <img
             src="https://images.wedmegood.com/wp-content/uploads/2017/11/1557573331_DeekAmit_20190216_Deek_Ready_0068.jpg"
             alt="Slider Image 1"
             className="w-full"
           />
         </div>
-        <div>
+        <div className="outline-none">
           <img
             src="https://images.wedmegood.com/wp-content/uploads/2017/11/1557573331_DeekAmit_20190216_Deek_Ready_0068.jpg"
             alt="Slider Image 2"
             className="w-full"
           />
         </div>
-        <div>
+        <div className="outline-none">
           <img
             src="https://images.wedmegood.com/wp-content/uploads/2017/11/1557573331_DeekAmit_20190216_Deek_Ready_0068.jpg"
             alt="Slider Image 3"
