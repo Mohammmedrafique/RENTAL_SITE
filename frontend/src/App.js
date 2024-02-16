@@ -37,7 +37,7 @@ function App() {
       <Navbar />
       <HeroSection />
       <div className="container mx-auto px-2 sm:px-6 lg:px-8">
-        <h1 className="text-3xl font-semibold text-center my-8">
+        <h1 className="text-2xl font-semibold text-center my-8">
           Checkout Our Product
         </h1>
         <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
